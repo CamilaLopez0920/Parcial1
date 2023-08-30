@@ -25,12 +25,12 @@ const Punto2 = () => {
   };
 
   return (
-    <div>
+    <>
       <h2>Costo de Llamada</h2>
       <span>Duración de la llamada (minutos):</span>
       <input type="number" value={duraciondeLlamada} onChange={handleDuracionChange} />
       <p>Costo total de la llamada: {costoLlamada()} pesos</p>
-    </div>
+    </>
   );
 };
 
